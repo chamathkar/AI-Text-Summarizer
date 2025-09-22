@@ -1,110 +1,40 @@
-💻 AI Text Summarizer Web App
+# 📝 AI Text Summarizer Web App
 
-A sleek, modern, and responsive web app that uses Puter.js AI to generate concise summaries from long text inputs. Runs entirely in the browser — no backend or API keys required.
+A sleek, modern, and responsive web application that uses **Puter.js AI** 🤖 to generate concise summaries from long text inputs. Runs entirely in the browser — no backend or API keys required ⚡.
 
-🚀 Features
+## ✨ Features
+- 🖊️ Summarize long text instantly
+- 💻 Fully client-side (no backend needed)
+- 🎨 Modern, responsive UI built with **React + Tailwind CSS**
+- ✅ AI readiness check (🟢 AI Ready / 🟡 Waiting for input)
+- 🌙 Light / Dark Theme support
+- 📋 Copy summary to clipboard easily
 
-📝 Summarize long text instantly
-
-⚡ Fully client-side (no backend needed)
-
-🎨 Modern, responsive UI built with React + Tailwind CSS
-
-✅ AI readiness check (🟢 AI Ready / 🟡 Waiting for AI)
-
-⚠️ Handles errors gracefully
-
-🗂️ Lightweight and fast
-
-🛠️ Tech Stack
-
-Frontend: React
-
-Styling: Tailwind CSS
-
-AI Integration: Puter.js (via <script> tag)
-
-Build Tool: Vite
-
-📁 Folder Structure
-ai-text-summarizer/
-├── public/
-│   └── index.html        # Includes Puter.js script
-├── src/
-│   ├── App.jsx           # Main React component
-│   ├── index.css         # Tailwind styles
-│   └── main.jsx          # React entry point
-├── package.json
-└── README.md
-
-🧠 How It Works
-
-Checks if window.puter.ai.chat is ready.
-
-Shows AI status: 🟢 AI Ready or 🟡 Waiting for AI.
-
-User types/pastes text and clicks Summarize.
-
-Text is sent to Puter.js AI via prompt:
-
-Please summarize this, so that it can be understandable: {user text}
+## 🛠️ Technologies Used
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 🤖 Puter.js AI
+- 🚀 Vite (for project setup)
 
 
-The AI returns a concise summary displayed in the app.
+## 💾 Installation
+1. Clone the repository:  
+   `git clone https://github.com/your-username/ai-text-summariser.git`
+2. Navigate into the project directory:  
+   `cd ai-text-summariser`
+3. Install dependencies:  
+   `npm install`
+4. Start the development server:  
+   `npm run dev`
+5. Open the app in your browser at `http://localhost:5173` 🌐
 
-Errors (if any) are shown to the user.
+## 🚀 Usage
+1. Enter or paste the text you want summarized.
+2. Click the **Summarize** button 🟢.
+3. Copy the generated summary using the **📋 Copy button**.
+4. Toggle between **Light 🌞 and Dark 🌙 modes**.
 
-📦 Installation & Usage
+## 🖼️ Screenshots
 
-Clone the repo:
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/87dcb3f1-7f9c-47c7-9f5b-949bbc914285" />
 
-git clone https://github.com/your-username/ai-text-summarizer.git
-cd ai-text-summarizer
-
-
-Install dependencies:
-
-npm install
-
-
-Add Puter.js script in public/index.html:
-
-<script src="https://js.puter.com/v2/"></script>
-
-
-Start the development server:
-
-npm run dev
-
-
-Open the URL shown in your terminal (usually http://localhost:5173/) to use the app.
-
-Build for production (optional):
-
-npm run build
-
-
-Preview production build:
-
-npm run preview
-
-
-💡 No backend or API keys required — fully client-side.
-
-✅ Future Enhancements
-
-Add theme toggle (light/dark)
-
-Add export summary functionality
-
-Add history tracking for past summaries
-
-🤝 Contributing
-
-Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
-
-💬 Author
-chamathkar
-
-Chamathkar
-Connect on GitHub: github.com/your-username
