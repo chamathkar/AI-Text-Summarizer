@@ -34,3 +34,9 @@ Check versions:
 ```bash
 node -v
 npm -v
+
+### 2. Clone the repository  
+```bash
+git clone https://github.com/your-username/ai-text-summarizer.git
+cd ai-text-summarizer
+
