@@ -34,7 +34,7 @@ A sleek, modern, and responsive web application that uses **Puter.js AI** 🤖 t
 3. Copy the generated summary using the **📋 Copy button**.
 4. Toggle between **Light 🌞 and Dark 🌙 modes**.
 
-## 🖼️ Screenshots
+## 🖼️ Screenshot
 
 <img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/87dcb3f1-7f9c-47c7-9f5b-949bbc914285" />
 
