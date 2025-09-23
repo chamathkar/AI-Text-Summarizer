@@ -1,7 +1,7 @@
 
 # 📝 AI Text Summarizer Web App
 
-A sleek, modern, and responsive web application that uses **Puter.js AI** 🤖 to generate concise summaries from long text inputs. Runs entirely in the browser — no backend or API keys required ⚡.
+A sleek, modern, and responsive web application that uses **Puter.js AI** 🤖 to generate concise summaries from long text inputs. Runs entirely in the browser — no API keys required ⚡.
 
 ## ✨ Features
 - 🖊️ Summarize long text instantly
